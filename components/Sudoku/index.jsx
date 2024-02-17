@@ -76,7 +76,7 @@ const SudokuGame = () => {
 			{puzzle.map((row, rowIndex) => (
 			  <div key={rowIndex} className="rows grid grid-cols-3 gap-2 row-gap-2"> 
 				{row.map((cell, columnIndex) => (
-					<div>
+					<div key={`${rowIndex}-${columnIndex}`}>
 				  <input
 					key={columnIndex}
 					type="number"
