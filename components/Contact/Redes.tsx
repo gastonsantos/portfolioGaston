@@ -13,6 +13,7 @@ const NewsLatterBox = () => {
       <div className="flex flex-row items-center ">
                   <a
                     href="https://www.facebook.com/gaston.santos.330?locale=es_LA"
+                    rel="noreferrer noopener"
                     target="_blank"
                     aria-label="social-link"
                     className="mr-6 text-[#CED3F6] hover:text-primary"
@@ -29,6 +30,7 @@ const NewsLatterBox = () => {
                   <a
                     href="https://twitter.com/Gaston24354545"
                     target="_blank"
+                    rel="noreferrer noopener"
                     aria-label="social-link"
                     className="mr-6 text-[#CED3F6] hover:text-primary"
                   >
@@ -45,6 +47,7 @@ const NewsLatterBox = () => {
                   <a
                     href="https://www.linkedin.com/in/gaston-santos-654748227/"
                     target="_blank"
+                    rel="noreferrer noopener"
                     aria-label="social-link"
                     className="mr-6 text-[#CED3F6] hover:text-primary"
                   >
@@ -61,6 +64,7 @@ const NewsLatterBox = () => {
                   <a
                   href="https://www.instagram.com/gastonsantos53/"
                   target="_blank"
+                  rel="noreferrer noopener"
                   aria-label="social-link"
                   className="mr-6 text-[#CED3F6] hover:text-primary"
                   >

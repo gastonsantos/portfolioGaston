@@ -26,6 +26,7 @@ const SingleProyecto = ({ proyectos }: { proyectos: Proyectos }) => {
          {descripcion}
         </p>
         <a href={path} 
+        rel="noreferrer noopener"
         target="_blank"
         className="flex items-center justify-center">
         <button
