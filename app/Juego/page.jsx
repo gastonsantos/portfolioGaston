@@ -5,7 +5,7 @@ import Ganador from '../../components/Ganador';
 import Perdedor from '../../components/Perdedor';
 import * as React from 'react';
 import ReglasJuego from '@/components/ReglasJuego';
-import CirculosDeco from '../../components/CirculosDeco/circulosDeco';
+import CirculosDeco from '../../components/CirculosDeco/CirculosDeco';
 
 
 const emojuList1= [
