@@ -23,7 +23,7 @@ const ReglasJuego = ({reglas}) => {
           initial={{ opacity: 0, x: "-100%" }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.5, staggerChildren: 0.1 }}
-          className={`relative z-40 p-4 m-4 bg-black shadow-lg rounded-lg overflow-hidden ${window.innerWidth < 768 ? 'max-w-full' : ''}`} // Adjust width for smaller screens
+          className={`relative z-40 p-4 m-4 bg-black shadow-lg rounded-lg overflow-hidden ${typeof window !== 'undefined' && window.innerWidth < 768 ? 'max-w-full' : ''}`} // Adjust width for smaller screens
         >
           <div className="rounded-md flex-col py-1 px-4 text-base font-semibold duration-300 ease-in-out bg-white/20 hover:bg-white/30 dark:bg-white/20 dark:text-white dark:hover:bg-white/30">
             <h1 className="text-white dark:text-white">Objetivo:</h1>
