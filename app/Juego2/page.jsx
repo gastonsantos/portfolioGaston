@@ -2,7 +2,7 @@
 import { useEffect, useState , useRef} from 'react';
 import * as React from 'react';
 import Sudoku from '@/components/Sudoku'
-import CirculosDeco from '../../components/CirculosDeco/circulosDeco';
+import CirculosDeco from '../../components/CirculosDeco/CirculosDeco';
 import ReglasJuego from '@/components/ReglasJuego';
 import juegoData from "../../components/Juegos/juegoData";
 

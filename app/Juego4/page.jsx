@@ -1,7 +1,7 @@
 "use client"
 
 import * as React from 'react';
-import CirculosDeco from '../../components/CirculosDeco/circulosDeco';
+import CirculosDeco from '../../components/CirculosDeco/CirculosDeco';
 import Ahorcado from "@/components/Ahorcado/Principal/Principal";
 import ReglasJuego from '@/components/ReglasJuego';
 import juegoData from "../../components/Juegos/juegoData";

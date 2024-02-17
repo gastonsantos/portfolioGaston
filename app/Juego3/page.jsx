@@ -1,6 +1,6 @@
 "use client"
 import * as React from 'react';
-import CirculosDeco from '../../components/CirculosDeco/circulosDeco';
+import CirculosDeco from '../../components/CirculosDeco/CirculosDeco';
 import MemoProg from '../../components/MemoProg';
 import juegoData from "../../components/Juegos/juegoData";
 import ReglasJuego from '@/components/ReglasJuego';
