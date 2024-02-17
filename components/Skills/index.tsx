@@ -3,9 +3,6 @@ import SingleFeature from "./SingleFeature";
 import featuresData from "./featuresData";
 
 const Skills = () => {
-
- 
-
   return (
     <>
       <section
