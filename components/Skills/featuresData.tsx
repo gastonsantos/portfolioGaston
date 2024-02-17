@@ -13,7 +13,7 @@ const featuresData: Feature[] = [
       ),
     title: ".NET",
     paragraph:
-      "Poseo conocimiento tanto en .Net como en el ORM, Entity Framework. Tambien tengo conocimientos de Winforms para la creacion de aplicaciones de escritorio",
+      "Poseo conocimiento tanto en .Net como en el ORM  Entity Framework. Tambien tengo conocimientos de Winforms para la creacion de aplicaciones de escritorio",
   },
   {
     id: 1,
@@ -24,7 +24,7 @@ const featuresData: Feature[] = [
     ),
     title: "Java",
     paragraph:
-      "Tengo experiencia tanto en el lenguaje como en el ORM, Hibernate y tambien con el framework Spring!",
+      "Tengo experiencia tanto en el lenguaje como en el ORM Hibernate y tambien con el framework Spring",
   },
   {
     id: 1,
@@ -35,7 +35,7 @@ const featuresData: Feature[] = [
     ),
     title: "React",
     paragraph:
-      "Conocimiento básicos tanto de React como es también con el Framework, Next js. ",
+      "Conocimiento básicos tanto de React como es también con el Framework Next js. ",
   },
   {
     id: 1,

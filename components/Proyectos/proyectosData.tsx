@@ -29,7 +29,7 @@ const proyectoData: Proyectos[] = [
     id: 4,
     nombre: "Home Inmobiliaria",
     descripcion:
-      "Página informativa de una Inmobiliaria, realizada integramente en .NET con MVC, se utilizó el ORM MongoFramework para interactuar con la base de datos.",
+      "Página informativa de una Inmobiliaria, realizada integramente en .NET con MVC, se utilizó el ORM MongoFramework para la interacción con la base de datos.",
     imagen: "/images/proyecto/TuCasa.jpg",
     path: "https://github.com/gastonsantos/PruebaCosmosDb",
   },
@@ -45,7 +45,7 @@ const proyectoData: Proyectos[] = [
     id: 6,
     nombre: "Taleweave",
     descripcion:
-      "Aplicación realizada en grupo como proyecto de final de carrera, el Backend se realizó con .NET y el Front se hizo con Next js con base de datos SQL server con Servicios de Azure ",
+      "Aplicación realizada en grupo como proyecto de final de carrera, el Backend se realizó con .NET y el Front se hizo con Next js con base de datos SQL server y  Servicios de Azure ",
     imagen: "/images/proyecto/Taleweave.jpg",
     path: "https://github.com/osceck123/front-tpi",
   },
