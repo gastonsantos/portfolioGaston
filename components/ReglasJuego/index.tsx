@@ -12,7 +12,7 @@ const ReglasJuego = ({reglas}) => {
   return (
     <>
       <button
-        className={`absolute top-4 left-4 z-50 rounded-md bg-black/20 py-1 px-4 text-base font-semibold text-black duration-300 ease-in-out hover:bg-black/30 dark:bg-white/20 dark:text-white dark:hover:bg-white/30 flex items-center justify-center ${visible ? 'translate-y--0' : ''} ${window.innerWidth < 768 ? 'translate-y-0' : ''}`}
+        className={`absolute top-4 left-4 z-50 rounded-md bg-black/20 py-1 px-4 text-base font-semibold text-black duration-300 ease-in-out hover:bg-black/30 dark:bg-white/20 dark:text-white dark:hover:bg-white/30 flex items-center justify-center ${visible ? 'translate-y--0' : ''} `}
         onClick={mostrarReglas}
       >
         {visible ? "Ocultar reglas" : "Mostrar reglas"}
