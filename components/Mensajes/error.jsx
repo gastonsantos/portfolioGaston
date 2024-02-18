@@ -31,15 +31,16 @@ const Exito = ({onClose}) => {
         }}
       >
         <Fade in={open}>
-          <Box className="rounded-md bg-black/20 m-2 py-2 px-2 text-base font-semibold text-black duration-300 ease-in-out hover:bg-black/30 dark:bg-white/20 dark:text-white dark:hover:bg-white/30">
+          <Box className="fixed top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-4/12 rounded-md bg-red/80 m-2 py-2 px-2 text-base font-semibold text-black duration-300 ease-in-out hover:bg-red/80 dark:bg-red/80 dark:text-black dark:hover:bg-red/100">
             <Typography id="transition-modal-title" variant="h6" component="h2">
-              <h2 className="mx-auto text-center">Ecurrio un error al enviar el mesaje!!. Contactate conmigo en las redes sociales.</h2>
+              <h2 className="mx-auto text-center"> Error.</h2>
+              <h3 className="mx-auto text-center">Comunicate conmigo en las redes sociales.</h3>
             </Typography>
             <Typography id="transition-modal-description" className="flex justify-center items-center">
             <button
               onClick={onClose}
               type="button"
-              class="rounded-md bg-black/20 py-1 px-4 text-base font-semibold text-black duration-300 ease-in-out hover:bg-black/30 dark:bg-white/20 dark:text-white dark:hover:bg-white/30 flex items-center justify-center">
+              class="rounded-md bg-red/20 py-1 px-4 text-base font-semibold text-black duration-300 ease-in-out hover:bg-red/30 dark:bg-red/20 dark:text-blac dark:hover:bg-red/100 flex items-center justify-center">
               Cerrar
             </button>
             </Typography>

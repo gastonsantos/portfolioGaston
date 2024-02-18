@@ -95,11 +95,15 @@ const Contact = () => {
                       Enviar
                     </button>
                   </div>
+                 
                 </div>
               </form>
+              
               {showModal && <Exito onClose={() => setShowModal(false)} />}
               {showModalError && <Error onClose={() => setShowModalError(false)} />}
             </div>
+
+            
           </div>
           <div className="w-full px-4 lg:w-5/12 xl:w-4/12">
             <Redes />
