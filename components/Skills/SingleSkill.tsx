@@ -1,7 +1,7 @@
-import { Feature } from "@/types/feature";
+import { Skill } from "@/types/skill";
 
-const SingleFeature = ({ feature }: { feature: Feature }) => {
-  const { icon, title, paragraph } = feature;
+const SingleSkill = ({ skill }: { skill: Skill }) => {
+  const { icon, title, paragraph } = skill;
   return (
     <div className="w-full">
       <div className="wow fadeInUp" data-wow-delay=".15s">
@@ -19,4 +19,4 @@ const SingleFeature = ({ feature }: { feature: Feature }) => {
   );
 };
 
-export default SingleFeature;
+export default SingleSkill;

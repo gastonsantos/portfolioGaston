@@ -1,6 +1,6 @@
 
-import SingleFeature from "./SingleFeature";
-import featuresData from "./featuresData";
+import SingleFeature from "./SingleSkill";
+import skillData from "./skillData";
 
 const Skills = () => {
   return (
@@ -13,8 +13,8 @@ const Skills = () => {
         
 
           <div className="grid grid-cols-1 gap-x-8 gap-y-14 md:grid-cols-2 lg:grid-cols-3">
-            {featuresData.map((feature) => (
-              <SingleFeature key={feature.id} feature={feature} />
+            {skillData.map((skill) => (
+              <SingleFeature key={skill.id} skill={skill} />
             ))}
           </div>
         </div>

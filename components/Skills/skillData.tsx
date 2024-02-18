@@ -1,6 +1,6 @@
-import { Feature } from "@/types/feature";
+import { Skill } from "@/types/skill";
 
-const featuresData: Feature[] = [
+const featuresData: Skill[] = [
   {
     id: 1,
     icon: (
@@ -13,7 +13,7 @@ const featuresData: Feature[] = [
       ),
     title: ".NET",
     paragraph:
-      "Poseo conocimiento tanto en .Net como en el ORM  Entity Framework. Tambien tengo conocimientos de Winforms para la creacion de aplicaciones de escritorio",
+      "Poseo conocimiento tanto en .Net como en el ORM  Entity Framework. También tengo conocimientos de Winforms para la creación de aplicaciones de escritorio",
   },
   {
     id: 1,
@@ -24,7 +24,7 @@ const featuresData: Feature[] = [
     ),
     title: "Java",
     paragraph:
-      "Tengo experiencia tanto en el lenguaje como en el ORM Hibernate y tambien con el framework Spring",
+      "Tengo experiencia tanto en el lenguaje como en el ORM Hibernate y también con el framework Spring",
   },
   {
     id: 1,
@@ -35,7 +35,7 @@ const featuresData: Feature[] = [
     ),
     title: "React",
     paragraph:
-      "Conocimiento básicos tanto de React como es también con el Framework Next js. ",
+      "Conocimiento básicos tanto de React como también con el Framework Next js. ",
   },
   {
     id: 1,
@@ -46,7 +46,7 @@ const featuresData: Feature[] = [
     ),
     title: "Angular",
     paragraph:
-      "Conocimientos basicos de Angular, en el cual cree un e-commerce use Angular para Front y Node js para el Backend.",
+      "Tengo conocimientos fundamentales en Angular, donde he desarrollado en grupo un eCommerce utilizando Angular para el frontend y Node.js para el backend.",
   },
   {
     id: 1,
@@ -56,7 +56,7 @@ const featuresData: Feature[] = [
     ),
     title: "SQL",
     paragraph:
-      "Conocimientos de base de datos realcional, tanto con los motores de MySql como SQL server, también con SQLite para la creación de aplicaiones de escritorio",
+      "Conocimientos de base de datos realcional SQL, tanto con los motores de MySql como SQL server, también con SQLite para la creación de aplicaiones de escritorio",
   },
   {
     id: 1,
