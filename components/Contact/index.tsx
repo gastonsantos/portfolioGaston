@@ -69,7 +69,7 @@ const Contact = () => {
                       <input
                         type="email"
                         name="user_email"
-                        placeholder="Emai"
+                        placeholder="Email"
                         className="w-full rounded-md border border-transparent py-3 px-6 text-base text-body-color placeholder-body-color shadow-one outline-none focus:border-primary focus-visible:shadow-none dark:bg-[#242B51] dark:shadow-signUp"
                       />
                     </div>
