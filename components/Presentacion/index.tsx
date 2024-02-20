@@ -30,7 +30,7 @@ const Presentacion = () => {
                   <Link
                     rel="noreferrer noopener"
                     target="_blank"
-                    href="https://drive.google.com/file/d/1eXG24jchLH1gusqS9pWViFINsmMLgyhq/view?usp=sharing"
+                    href="https://drive.google.com/file/d/1_RyffnpmMx4myB2zx-5sH93cZPL5e1l6/view?usp=sharing"
                     className="rounded-md bg-primary py-4 px-8 text-base font-semibold text-white duration-300 ease-in-out hover:bg-primary/80"
                   >
                     Mi CV
