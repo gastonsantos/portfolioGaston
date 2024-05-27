@@ -23,9 +23,7 @@ const Presentacion = () => {
                 Hola, Soy Gaston Santos
                 </h1>
                 <p className="mb-12 text-base font-medium !leading-relaxed text-body-color dark:text-white dark:opacity-90 sm:text-lg md:text-xl">
-                 Soy graduado de la Tecnicatura en Desarrollo Web en la UNLaM, estoy buscando la oportunidad de contribuir con mis habilidades. Poseo muchas ganas de seguir aprendiendo y me considero una persona autodidacta y muy proactiva. 
-                 Sinceramente la remuneración no es mi principal motivación, en este momento estoy enfocado en adquirir experiencia y crecer profesionalmente. Sé que es importante pero no es algo en lo que esté enfocado actualmente.
-                </p>
+                Soy graduado en la Tecnicatura Universitaria en Desarrollo Web de la UNLaM. Me encantaría tener mi primera experiencia laboral en el mundo IT. Soy un apasionado del desarrollo web, tanto de FrontEnd como de BackEnd. Me considero una persona autodidacta y resolutiva que trabaja muy bien en equipo y se adapta a las circunstancias.                </p>
                 <div className="flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
                   <Link
                     rel="noreferrer noopener"

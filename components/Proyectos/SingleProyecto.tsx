@@ -31,10 +31,10 @@ const SingleProyecto = ({ proyectos }: { proyectos: Proyectos }) => {
         className="flex items-center justify-center">
         <button
           type="button"
-          className="rounded-md bg-primary m-2 py-2 px-2 text-base font-semibold text-white duration-300 ease-in-out hover:bg-black/30 dark:bg-white/20 dark:text-white dark:hover:bg-white/30"
+          className="rounded-md bg-primary m-4 py-2 px-4 text-base font-semibold text-white duration-300 ease-in-out hover:bg-black/30 dark:bg-white/20 dark:text-white dark:hover:bg-white/30"
           data-te-ripple-init
           data-te-ripple-color="light">
-          ver código
+          ver GitHub
         </button>
         </a>
       </div>
