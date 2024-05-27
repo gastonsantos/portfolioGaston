@@ -55,7 +55,7 @@ const proyectoData: Proyectos[] = [
     descripcion:
       "Aplicación realizada con .Net (Api rest) para el Backend y el Front se hizo con Next js (React), con base de datos Sql Server, JWT, SqlDependency.",
     imagen: "/images/proyecto/SportSquad.jpg",
-    path: "https://github.com/gastonsantos/Deportes-front",
+    path: "https://deportes-front.vercel.app",
   },
 
 ];
