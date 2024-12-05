@@ -57,6 +57,15 @@ const proyectoData: Proyectos[] = [
     imagen: "/images/proyecto/SportSquad.jpg",
     path: "https://deportes-front.vercel.app",
   },
+  {
+    id: 8,
+    nombre: "WordsToo",
+    descripcion:
+      "Aplicación realizada con Java SpringBoot para el Backend y el Front se hizo con Next js, con uso de API Cohere para la generación de texto y PWA para que se pueda ejecutar en otros dispositivos.",
+    imagen: "/images/proyecto/WordsToo.jpg",
+    path: "https://words-too-eq93.vercel.app",
+  },
+
 
 ];
 export default proyectoData;
